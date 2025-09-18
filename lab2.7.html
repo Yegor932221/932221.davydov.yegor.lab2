@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+    <meta name="viewport">
+    <title>task 2.7</title>
+    <style>
+		body{
+            
+            font-family: Times new Roman, sans-serif;
+            background-color: white;
+			color: white;
+
+		}
+		.block1 {
+			position: static;
+			background: blueviolet;
+			width: 130px;
+			height: 90px;
+			padding: 5px;
+		}	
+		.block2 {
+			position: relative;
+			background: darkred;
+			width: 140px;
+			height: 80px;
+			padding-left: 5 px;
+		}
+		.block3 {
+			position: relative;
+			background: peru;
+			width: 130px;
+			height: 80px;
+			top: -25px;
+			right: -25px;
+		}
+		.block4 {
+			position: relative;
+			background: indianred;
+			width: 550px;
+			height: 405px;
+			padding: 5px;
+		}
+		.block5 {
+			width: 300px; 
+			height: 200px;
+			background: indigo; 
+			position: absolute;
+			right: 0px;
+			top: 120px;
+		}
+		.block6 {
+			position: fixed;
+			width: 130px;
+			height: 90px;
+			background: forestgreen;
+			right: 0px;
+			bottom: 0px;
+			}
+	</style>
+</head>
+<body>
+	<div class="block1">	
+	It`s a static div!
+	</div>
+	<div class="block2">
+	It`s a relative div!
+	</div>
+	<div class="block3">
+	It`s a relative div!
+	</div>
+	<div class="block4">
+	It`s a relative div!
+	<div class="block5">
+	It`s an absolute div with relative father!
+	</div>
+	</div>
+	<div class="block6">
+	It`s a fixed div!
+	</div>
+</body>
